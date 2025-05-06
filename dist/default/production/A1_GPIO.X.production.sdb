@@ -1,0 +1,380 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"17 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\ECU_Layer/button/ecu_button.c
+[e E2992 . `uc
+BUTTON_PRESSED 0
+BUTTON_RELEASED 1
+]
+[e E2996 . `uc
+BUTTON_ACTIVE_HIGH 0
+BUTTON_ACTIVE_LOW 1
+]
+"36
+[e E2932 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"22 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\ECU_Layer/LED/ecu_led.c
+[e E2936 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"51
+[e E2932 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"29 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\MCAL_Layer/GPIO/hal_gpio.c
+[e E2932 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"58
+[e E2936 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"165
+[e E2950 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+"11 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\application.c
+[e E2950 . `uc
+PORTA_INDEX 0
+PORTB_INDEX 1
+PORTC_INDEX 2
+PORTD_INDEX 3
+PORTE_INDEX 4
+]
+[e E2940 . `uc
+GPIO_PIN0 0
+GPIO_PIN1 1
+GPIO_PIN2 2
+GPIO_PIN3 3
+GPIO_PIN4 4
+GPIO_PIN5 5
+GPIO_PIN6 6
+GPIO_PIN7 7
+]
+[e E2932 . `uc
+GPIO_LOW 0
+GPIO_HIGH 1
+]
+"22
+[e E3009 . `uc
+BUTTON_PRESSED 0
+BUTTON_RELEASED 1
+]
+[e E3013 . `uc
+BUTTON_ACTIVE_HIGH 0
+BUTTON_ACTIVE_LOW 1
+]
+[e E2936 . `uc
+GPIO_DIRECTION_OUTPUT 0
+GPIO_DIRECTION_INPUT 1
+]
+"46
+[e E2992 . `uc
+LED_OFF 0
+LED_ON 1
+]
+"53
+[v _program1 program1 `(v  1 e 1 0 ]
+"60
+[v _program2 program2 `(v  1 e 1 0 ]
+"69
+[v _program3 program3 `(v  1 e 1 0 ]
+"78
+[v _main main `(i  1 e 2 0 ]
+"121
+[v _application_init application_init `(v  1 e 1 0 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"17 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\ECU_Layer/button/ecu_button.c
+[v _button_init button_init `(uc  1 e 1 0 ]
+"34
+[v _button_read_state button_read_state `(uc  1 e 1 0 ]
+"17 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\ECU_Layer/LED/ecu_led.c
+[v _led_init led_init `(uc  1 e 1 0 ]
+"40
+[v _led_on led_on `(uc  1 e 1 0 ]
+"64
+[v _led_off led_off `(uc  1 e 1 0 ]
+"23 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\MCAL_Layer/GPIO/hal_gpio.c
+[v _gpio_pin_init gpio_pin_init `(uc  1 e 1 0 ]
+"44
+[v _gpio_pin_direction_init gpio_pin_direction_init `(uc  1 e 1 0 ]
+"94
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+"123
+[v _gpio_pin_read_logic gpio_pin_read_logic `(uc  1 e 1 0 ]
+"144
+[v _gpio_pin_toggle_logic gpio_pin_toggle_logic `(uc  1 e 1 0 ]
+[s S76 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 led_status 1 0 :1:7 
+]
+"11 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\application.c
+[v _led1 led1 `S76  1 e 1 0 ]
+"16
+[v _led2 led2 `S76  1 e 1 0 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"22
+[s S35 . 3 `S24 1 button_pin 1 0 `E2992 1 button_state 1 1 `E2996 1 button_connection 1 2 ]
+[v _btn_high btn_high `S35  1 e 3 0 ]
+"31
+[v _btn_low btn_low `S35  1 e 3 0 ]
+"40
+[v _btn_high_status btn_high_status `E3009  1 e 1 0 ]
+"43
+[v _btn_high_valid_status btn_high_valid_status `E3009  1 e 1 0 ]
+"44
+[v _btn_high_last_valid_status btn_high_last_valid_status `E3009  1 e 1 0 ]
+"48
+[v _btn_high_valid btn_high_valid `ui  1 e 2 0 ]
+"49
+[v _ProgramSelected ProgramSelected `ui  1 e 2 0 ]
+"51
+[v _ret ret `uc  1 e 1 0 ]
+"50 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\pic\include\proc/pic18f4620.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"187
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"358
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"533
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"675
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"878
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"990
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1102
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"1214
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1326
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1378
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1600
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1822
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2044
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2266
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"10 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\MCAL_Layer/GPIO/hal_gpio.c
+[v _tris_registers tris_registers `[5]*.39VEuc  1 e 10 0 ]
+"11
+[v _lat_registers lat_registers `[5]*.39VEuc  1 e 10 0 ]
+"12
+[v _port_registers port_registers `[5]*.39VEuc  1 e 10 0 ]
+"78 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\application.c
+[v _main main `(i  1 e 2 0 ]
+{
+"119
+} 0
+"69
+[v _program3 program3 `(v  1 e 1 0 ]
+{
+"70
+[v program3@i i `i  1 a 2 12 ]
+"76
+} 0
+"60
+[v _program2 program2 `(v  1 e 1 0 ]
+{
+"61
+[v program2@i i `i  1 a 2 12 ]
+"67
+} 0
+"53
+[v _program1 program1 `(v  1 e 1 0 ]
+{
+"58
+} 0
+"40 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\ECU_Layer/LED/ecu_led.c
+[v _led_on led_on `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"45
+[v led_on@pin_obj pin_obj `S24  1 a 1 9 ]
+[s S76 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 led_status 1 0 :1:7 
+]
+"40
+[v led_on@led led `*.30CS76  1 p 1 7 ]
+"44
+[v led_on@F3017 F3017 `S24  1 s 1 F3017 ]
+"55
+} 0
+"64
+[v _led_off led_off `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"69
+[v led_off@pin_obj pin_obj `S24  1 a 1 9 ]
+[s S76 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 led_status 1 0 :1:7 
+]
+"64
+[v led_off@led led `*.30CS76  1 p 1 7 ]
+"68
+[v led_off@F3022 F3022 `S24  1 s 1 F3022 ]
+"79
+} 0
+"34 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\ECU_Layer/button/ecu_button.c
+[v _button_read_state button_read_state `(uc  1 e 1 0 ]
+{
+"36
+[v button_read_state@pin_logic_status pin_logic_status `E2932  1 a 1 10 ]
+"35
+[v button_read_state@ret ret `uc  1 a 1 9 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"34
+[s S35 . 3 `S24 1 button_pin 1 0 `E2992 1 button_state 1 1 `E2996 1 button_connection 1 2 ]
+[v button_read_state@btn btn `*.30CS35  1 p 1 6 ]
+[v button_read_state@btn_state btn_state `*.30E2992  1 p 1 7 ]
+"60
+} 0
+"123 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\MCAL_Layer/GPIO/hal_gpio.c
+[v _gpio_pin_read_logic gpio_pin_read_logic `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+[v gpio_pin_read_logic@_pin_config _pin_config `*.30CS24  1 p 1 0 ]
+[v gpio_pin_read_logic@logic logic `*.30E2932  1 p 1 1 ]
+"132
+} 0
+"121 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\application.c
+[v _application_init application_init `(v  1 e 1 0 ]
+{
+"127
+} 0
+"17 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\ECU_Layer/LED/ecu_led.c
+[v _led_init led_init `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"22
+[v led_init@pin_obj pin_obj `S24  1 a 1 12 ]
+"18
+[v led_init@ret ret `uc  1 a 1 11 ]
+[s S76 . 1 `uc 1 port_name 1 0 :4:0 
+`uc 1 pin 1 0 :3:4 
+`uc 1 led_status 1 0 :1:7 
+]
+"17
+[v led_init@led led `*.30CS76  1 p 1 9 ]
+"21
+[v led_init@F3012 F3012 `S24  1 s 1 F3012 ]
+"31
+} 0
+"23 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\MCAL_Layer/GPIO/hal_gpio.c
+[v _gpio_pin_init gpio_pin_init `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+[v gpio_pin_init@_pin_config _pin_config `*.30CS24  1 p 1 7 ]
+"33
+} 0
+"94
+[v _gpio_pin_write_logic gpio_pin_write_logic `(uc  1 e 1 0 ]
+{
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+[v gpio_pin_write_logic@_pin_config _pin_config `*.30CS24  1 p 1 0 ]
+[v gpio_pin_write_logic@logic logic `E2932  1 p 1 1 ]
+"111
+} 0
+"17 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\ECU_Layer/button/ecu_button.c
+[v _button_init button_init `(uc  1 e 1 0 ]
+{
+"18
+[v button_init@ret ret `uc  1 a 1 8 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"17
+[s S35 . 3 `S24 1 button_pin 1 0 `E2992 1 button_state 1 1 `E2996 1 button_connection 1 2 ]
+[v button_init@btn btn `*.30CS35  1 p 1 7 ]
+"25
+} 0
+"44 G:\IMPORTANT_COURSES\00_Embedded Systems Records\02_Part 2 Microcontroller Interfacing\code\A1_GPIO.X\MCAL_Layer/GPIO/hal_gpio.c
+[v _gpio_pin_direction_init gpio_pin_direction_init `(uc  1 e 1 0 ]
+{
+"45
+[v gpio_pin_direction_init@ret ret `uc  1 a 1 6 ]
+[s S24 . 1 `uc 1 port 1 0 :3:0 
+`uc 1 pin 1 0 :3:3 
+`uc 1 direction 1 0 :1:6 
+`uc 1 logic 1 0 :1:7 
+]
+"44
+[v gpio_pin_direction_init@_pin_config _pin_config `*.30CS24  1 p 1 0 ]
+"62
+} 0
